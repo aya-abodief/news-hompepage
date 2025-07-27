@@ -1,0 +1,43 @@
+a.nav-link
+{
+    color:  hsl(236, 13%, 42%);
+}
+
+button.btn-lg
+{
+    background-color: hsl(5, 85%, 63%);
+    border-radius: 0px;
+    border: 0px ;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+}
+
+
+p
+{
+    color: hsl(236, 13%, 42%);
+    line-height: 32px;
+}
+h1
+{
+    font-weight: bold;
+    font-size: 60px;
+ 
+}
+@media screen and (max-width:600px) {
+.nav
+{
+display: none;
+
+}   
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+footer p
+{
+    
+font-size: 22px;
+}   
+
+}
